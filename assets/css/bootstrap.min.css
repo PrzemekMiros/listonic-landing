@@ -536,8 +536,8 @@ progress {
 .container-xl,
 .container-xxl {
   width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
+  padding-right: 35px;
+  padding-left: 35px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -4967,7 +4967,7 @@ fieldset:disabled .btn {
 .modal-dialog {
   position: relative;
   width: auto;
-  margin: 0.5rem;
+  margin: 0;
   pointer-events: none;
 }
 .modal.fade .modal-dialog {
@@ -5009,7 +5009,6 @@ fieldset:disabled .btn {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 25px;
   outline: 0;
 }
 .modal-backdrop {
@@ -5066,8 +5065,8 @@ fieldset:disabled .btn {
 }
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 78%;
-    margin: 1.75rem auto;
+    max-width: 60%;
+    margin: 2rem auto;
   }
   .modal-dialog-scrollable {
     height: calc(100% - 3.5rem);

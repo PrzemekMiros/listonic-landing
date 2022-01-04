@@ -865,7 +865,7 @@ padding-top: 0px;
   padding: 40px 0;
 }
 .call-action2 .inner-content {
-  padding: 50px;
+  padding: 50px 20px;
 }
 .btn {
   background: #ffffff00;
@@ -873,6 +873,11 @@ padding-top: 0px;
 .btn:hover{
   background: #ffffff;
   color: #084298;
+}
+@media(min-width:768px) {
+  .call-action2 .inner-content {
+    padding: 50px;
+  }
 }
 
 /*===========================
@@ -1007,7 +1012,7 @@ padding-top: 0px;
 .services-one {
   background-color: #ffffff;
   padding-top: 0px;
-  padding-bottom: 40px;
+  padding-bottom: 70px;
 }
 .services-one .services-image .image img {
   width: 60%;
@@ -1033,7 +1038,7 @@ border-radius: 37px;
 
 .modal-content h2 {
   margin-top: 40px;
-  margin-bottom: 44px;
+  margin-bottom: 40px;
   font-family: "Inter";
 font-size: 44px;
 font-style: normal;
@@ -1068,7 +1073,7 @@ letter-spacing: 0.02em;
   padding: 12px 0;
   text-align: center;
   width: 100%;
-  margin-top: 70px;  
+  margin-top: 10px;  
   font-size: 16px;
   color: #242424;
   line-height: 25px;
@@ -1086,6 +1091,9 @@ letter-spacing: 0.02em;
 }
 
 @media(min-width:768px) {
+  .modal-content {
+    border-radius: 25px;
+  }
   .btn-wrap {
     width: 100%;
   }
@@ -1095,19 +1103,28 @@ letter-spacing: 0.02em;
   .modal-content h2 {
   font-size: 54px;
   }
+  .btn-pdf {
+    margin-top: 70px;  
+  }
 }
 @media(min-width:1200px) {
   .modal-content h2 {
-    font-size: 64px;
+    font-size: 54px;
     }
 }
 
 @media(max-width:768px) {
+  .modal-body {
+    padding: 13%;
+  }
   .mob-none {
     display: none;
   }
   .space-between {
     align-items: center;
+  }
+  .center-txt-m {
+    text-align: center;
   }
 }
  
